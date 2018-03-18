@@ -25,7 +25,7 @@ Relaxr was really impressed by your work last week and wants you to continue dev
 
 ### Technical Requirements
 
-- Use in-line-block or floats in your CSS to achieve a two-column layout
+- Use flexbox or floats in your CSS to achieve a two-column layout
 - Use the correct ```Open Sans``` Google Font typeface to style the text denoted in the [design file](readme) and according to the JPEG provided
 - Use proper filename conventions (lowercase, .html)
 - Use a single external CSS stylesheet to style all pages
