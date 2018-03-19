@@ -25,9 +25,31 @@ html {
 
 body {
   color: #000;
-  font-size: 12px;
+  background-color: #f0efef;
+  font-size: 16px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #033048;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #033048;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /******************************************
@@ -38,13 +60,164 @@ body {
 
 .container {
   width: 100%;
+  max-width: 940px;
   margin: auto;
 }
 
-header {}
+header {
+  background-color: #033048;
+}
 
-footer {}
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.masthead h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  padding: 40px 0;
+}
+
+.blog {
+  width: 700px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #606161;
+}
+
+.blog h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.blog article {
+  border-bottom: 1px solid #606161;
+  padding: 0 0 20px;
+  margin: 0 0 20px;
+}
+
+.blog img {
+  margin-bottom: 15px;
+}
+
+.blog article p:first-of-type::first-letter {
+  font-size: 3.5em;
+  line-height: 1;
+  float: left;
+  font-weight: 600;
+  margin-right: 3px;
+}
+
+.readmore {
+  margin: 40px 0 0;
+  text-align: right;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.sidebar h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.categories {
+  margin-bottom: 40px;
+}
+
+.categories ul {
+  font-size: 24px;
+  font-weight: 300;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.about a {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer h2 {
+  color: #f9e42e;
+  margin-bottom: 30px;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.social li {
+  margin: 0 20px;
+}
+
+.signup {
+  background-color: #f9e42e;
+  padding: 20px;
+  text-align: center;
+  align-self: stretch;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #033048;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 14px;
+}
